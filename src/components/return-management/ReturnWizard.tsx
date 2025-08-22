@@ -93,7 +93,7 @@ export const ReturnWizard = () => {
                         <div className="p-4 bg-warning/10 border border-warning/20 rounded-lg flex items-start gap-3">
                             <Lightbulb className="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
                             <div>
-                                <p className="font-medium text-warning-foreground">Pro Tip</p>
+                                <p className="font-medium">Pro Tip</p>
                                 <p className="text-sm text-muted-foreground">Answering "Yes" to basic troubleshooting often resolves 60% of issues!</p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ export const ReturnWizard = () => {
                             </div>
                         ))}
                         <div className="p-4 bg-accent/10 border border-accent/20 rounded-lg">
-                            <p className="text-sm text-accent-foreground">
+                            <p className="text-sm">
                                 ✨ These quick fixes resolve most common issues. Try them before starting a return process!
                             </p>
                         </div>
